@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 50%;
+    width: 100%;
+    background-color: white;
+    
+}
+
+#main2{
+    height: 50%;
+    width: 100%;
+    background-color: black;
+}
+
+a{
+    cursor: pointer;
+    color: black;
+
+}
+
+#main_box{
+    position: absolute;
+    height: 350px;
+    width: 950px;
+    background-color: white;
+    margin-top: -120px;
+    margin-left: 300px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 20px 2px rgba(0, 0, 0, 0.224);
+    border-top-left-radius: 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    overflow: hidden;
+    transition: .5s ease;
+}
+
+.circle{
+    height:280px;
+    width: 280px;
+    border-radius: 50%;
+    border: 4px solid rgb(243, 243, 244);
+    /* margin-top: -80px;
+    margin-right: -80px; */
+    bottom: 159px;
+    left: -90px;
+    position: absolute;
+    transition: .5s ease;
+}
+
+.rect1{
+    position: absolute;
+    height: 144px;
+    width: 270px;
+    border: 4px solid rgb(243, 243, 244);
+    border-radius: 27px;
+    bottom: 165px;
+    left: 310px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    transition: .5s ease;
+}
+
+.rect2{
+    position: absolute;
+    height: 200px;
+    width: 270px;
+    border: 4px solid rgb(243, 243, 244);
+    border-radius: 27px;
+    bottom: -114px;
+    left: 435px;
+    transition: .5s ease;
+}
+
+.cir_sq{
+    position: absolute;    
+    border-radius: 50%;
+    border-bottom-left-radius: 10px;
+    height: 200px;
+    width: 210px;
+    border: 4px solid rgb(243, 243, 244);
+    bottom: 189px;
+    left: 704px;
+    transition: .5s ease;
+}
+
+.comment1{
+    height: 32px;
+    width: 200px;
+    background-color: rgb(243, 243, 244);
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.comment2{
+    height: 32px;
+    width: 175px;
+    background-color: rgb(243, 243, 244);
+    border: none;
+    border-radius: 10px;
+    margin-top:10px;
+    margin-left: -20px;
+}
+
+#main_box h1{
+    font-weight: 600;
+    font-size: 40px;
+    padding: 40px;
+}
+
+#main_box button{
+    height: 50px;
+    width: 130px;
+    margin-bottom: 50px ;
+    margin-right: 40px;
+    border-radius: 5px ;
+    background-color: rgb(29, 196, 151);
+    color: white;
+    font-size: 14px;
+    border: none;
+    font-weight: bold;
+}
+
+#main_box:hover{
+    margin-top: -150px;
+}
+
+#main_box:hover .circle{
+    border: 4px solid rgb(25, 255, 25);
+}
+
+#main_box:hover .rect1{
+    border: 4px solid darkblue;
+}
+
+#main_box:hover .rect2{
+    border: 4px solid rgb(255, 183, 0);
+}
+
+#main_box:hover .cir_sq{
+    border: 4px solid rgb(255, 0, 0);
+}
+
+#main_box button:hover{
+    background-color: rgb(31, 179, 140);
+}
+
+/*new page*/
+
+#new{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 191, 0);
+    text-align: center;
+    font-size: 40px;
+}
